@@ -10,7 +10,6 @@ client_code_TOMOMI_RESEARCH_modified_20230823_offbeat_rev02.py
 ## モジュールと依存関係
 
 - `socket`: ソケット通信のための Python 標準ライブラリ
-- `threading`: マルチスレッディングを行う Python 標準ライブラリ（今回のコードでは未使用）
 - `json`: JSON データを扱う Python 標準ライブラリ
 - `time`: 時間関連の処理を行う Python 標準ライブラリ（今回のコードでは未使用）
 - `random`: 乱数生成を行う Python 標準ライブラリ
