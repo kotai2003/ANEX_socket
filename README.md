@@ -1,5 +1,7 @@
 # ANEX_socket
 宮島さんとのコード共有
+update : 2023/08/30
+client_code_TOMOMI_RESEARCH_modified_20230823_offbeat_rev02.py
 
 # クライアント接続と検査プロセスの自動化
 
