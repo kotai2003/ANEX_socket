@@ -1,0 +1,25 @@
+(base) shin@shinMBA-2 emulate % python3 client_code_TOMOMI_RESEARCH_modified_20230823_offbeat_rev02.py
+initial system status {'out_of_work': False, 'error_occurred': False, 'alarm_triggered': False, 'emergency': False, 'message': None}
+send data: b'{"command": "GET_STATUS"}'
+updated system status: {'out_of_work': False, 'error_occurred': False, 'alarm_triggered': False, 'emergency': False, 'message': ''}
+send data: b'{"command": "GET_READY_STATUS"}'
+GET_READY_STATUS returns 1
+send data: b'{"command": "ZERO_RETURN"}'
+send data: b'{"command": "GET_STATUS"}'
+System status: {'emergency': False, 'out_of_work': False, 'error_occurred': False, 'alarm_triggered': False, 'message': ''}
+updated system status: {'out_of_work': False, 'error_occurred': False, 'alarm_triggered': False, 'emergency': False, 'message': ''}
+send data: b'{"command": "CARRY_DRIVER_BIT"}'
+Capture Image
+Anomaly Detection
+send data: b'{"command": "ROTATE"}'
+Capture Image
+Anomaly Detection
+send data: b'{"command": "ROTATE"}'
+Capture Image
+Anomaly Detection
+send data: b'{"command": "INSPECTION_FINISHED_NG"}'
+send data: b'{"command": "CARRY_DRIVER_BIT"}'
+Error during CARRY_DRIVER_BIT. Exiting...
+send data: b'{"command": "GET_STATUS"}'
+updated system status: {'out_of_work': True, 'error_occurred': False, 'alarm_triggered': False, 'emergency': False, 'message': 'B000ワーク供給 エラー'}
+(base) shin@shinMBA-2 emulate %
